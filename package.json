@@ -1,0 +1,20 @@
+{
+  "name": "cucumber-training",
+  "version": "0.0.0",
+  "description": "PoC for Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "cucumber": "*",
+    "phantomjs": "*",
+    "webdriverjs": "*",
+    "webdriverio": "*",
+    "chai": "*",
+    "assertion-error": "*",
+    "deep-eql": "*"
+  },
+  "author": "Facu/Nico",
+  "license": "MIT"
+}
