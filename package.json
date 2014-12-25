@@ -1,19 +1,26 @@
 {
-  "name": "cucumber-training",
-  "version": "0.0.0",
+  "name": "cucumber-webdriver-boilerplate",
+  "version": "0.0.1",
   "description": "PoC for Cucumber",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "./node_modules/.bin/selenium",
+    "test": "./node_modules/.bin/cucumber.js"
+  },
+  "repository": {
+  "type": "git",
+  "url": "git://github.com/username/repository.git"
   },
   "devDependencies": {
-    "cucumber": "*",
-    "phantomjs": "*",
-    "webdriverjs": "*",
-    "webdriverio": "*",
-    "chai": "*",
     "assertion-error": "*",
-    "deep-eql": "*"
+    "chai": "*",
+    "chromedriver": "^2.12.0",
+    "cucumber": "*",
+    "deep-eql": "*",
+    "phantomjs": "*",
+    "selenium": "^2.20.0",
+    "webdriverio": "*",
+    "webdriverjs": "*"
   },
   "author": "Facu/Nico",
   "license": "MIT"
